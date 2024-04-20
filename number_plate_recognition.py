@@ -6,7 +6,7 @@
 import cv2
 import pytesseract
 
-#Step 2: Load the tesseract file 
+#Step 2: Load the tesseract file q
 pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 
 #Step 3: Read the image
