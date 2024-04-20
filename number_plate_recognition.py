@@ -7,7 +7,7 @@ import cv2
 import pytesseract
 
 #Step 2: Load the tesseract file 
-pytesseract.pytesseract.tesseract_cmd = "C:/Users/Sadiq/AppData/Local/Tesseract-OCR/tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 
 #Step 3: Read the image
 img=cv2.imread("car2.jpg")
